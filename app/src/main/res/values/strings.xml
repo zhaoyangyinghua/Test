@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Test</string>
+    <string name="send_to">微信</string>
 </resources>

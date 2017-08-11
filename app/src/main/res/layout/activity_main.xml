@@ -29,17 +29,57 @@
         android:id="@+id/tv_memory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="内存溢出"
         android:padding="10dp"
-        android:textSize="20sp"
-        />
+        android:text="内存溢出"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/tv_listView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="listView"
         android:padding="10dp"
-        android:textSize="20sp"
-        />
+        android:text="listView"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="列表对话框："
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_actionbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="actionbar："
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/tv_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="File文件"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Share分享"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_imagememory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="图片内存"
+        android:textSize="20sp" />
+
 </LinearLayout>

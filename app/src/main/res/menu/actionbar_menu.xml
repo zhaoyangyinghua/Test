@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.yihong.test.actioinbar.ActionbarActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--搜索，应该作为动作按钮展示-->
+    <item
+        android:id="@+id/action_compose"
+        android:icon="@mipmap/compose"
+        app:showAsAction="always"
+        android:title="compose" />
+
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@mipmap/delete"
+        app:showAsAction="always"
+        android:title="删除" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="never"
+        android:title="设置" />
+</menu>

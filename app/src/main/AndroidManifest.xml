@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yihong.test">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/weather"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:logo="@mipmap/weather">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".animator.AnimatorActivity" />
+        <activity android:name=".memory.MemoryActivity" />
+        <activity android:name=".listView.ListViewActivity" />
+        <activity android:name=".Dialog.DialogActivity" />
+        <activity android:name=".actioinbar.ActionbarActivity" />
+        <activity android:name=".file.FileActivity" />
+        <activity android:name=".share.SharedActivity" />
+        <activity android:name=".imagememory.ImageMemoryActivity"></activity>
+    </application>
+
+</manifest>
