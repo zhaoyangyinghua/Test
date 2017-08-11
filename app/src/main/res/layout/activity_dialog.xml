@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yihong.test.Dialog.DialogActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="列表对话框"
+        android:padding="10dp"
+        android:textSize="17sp"
+        android:textColor="#444"
+        />
+
+    <TextView
+        android:id="@+id/tv_selectdialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="多选列表对话框"
+        android:padding="10dp"
+        android:textSize="17sp"
+        android:textColor="#444"
+        />
+
+</LinearLayout>
